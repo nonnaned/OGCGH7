@@ -35,13 +35,33 @@
                     100% { transform: translate(5%,0) }
                }
                @font-face {
-               font-family: myFirstFont;
-  src: url(Abel-Regular.woff);
+               font-family: Abel;
+               src: url(Abel-Regular.woff);
+               }
+               div {
+  font-family: Abel;
+}
+               /* unvisited link */
+a:link {
+  color: #B1CAFC;
 }
 
-div {
-  font-family: myFirstFont;
+/* visited link */
+a:visited {
+  color: #0065F5;
 }
+
+/* mouse over link */
+a:hover {
+  color: #00DDF5;
+}
+
+/* selected link */
+a:active {
+  color: #4594D1;
+}
+
+
           </style>
 <body>
      <div class="bg"></div>
