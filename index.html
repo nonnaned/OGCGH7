@@ -20,6 +20,7 @@
                     animation: bg-animation .2s infinite;
                     opacity: .9;
                     visibility: visible;
+                    z-index: -1;
                }
                @keyframes bg-animation {
                     0% { transform: translate(0,0) }
@@ -36,24 +37,48 @@
                }
                
                @font-face {
-  font-family: myFirstFont;
-  src: url(Abel-Regular.woff);
-}
-div {
-  font-family: myFirstFont;
-}
-div {
-     padding-top :5%;
-}
+                    font-family: myFirstFont;
+                    src: url(Abel-Regular.woff);
+                    }
+               div {
+                    font-family: myFirstFont;
+                    }
+               .paddingfive {
+                         padding-top :5%;
+                    }
+               .paddingten{
+                    padding-bottom: 40%;
+               }
 
+               #header-content {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+               }
+             
+   
           </style>
+          <link rel="icon" href="icon.gif" type="image/gif" sizes="16x16">
           
           </head>
           
 <body>
      <div class="bg"></div>
-     <div class ="else"><h2 style="color: #0fc4d1; text-align: center;">ELTE</h2>
-<h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">Szamrend</a></h3></div>
+     <div style="color: #5ee8f1" ><h1 style=" text-align: center;">Oláh Péter Boldizsár</h1></div>
+     <div class="paddingfive"></div>
+
+     <div><h2 style="color: #0fc4d1; text-align: center;">ELTE</h2>
+     <h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">Szamrend/Bash</a></h3></div>
+     <div>
+     <h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">C++</a></h3></div>
+     <div>
+     <h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">C</a></h3></div>
+     <div>
+     <h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">Haskell</a></h3></div>
+     <div>
+     <h3 style="color: #0fc4d1; text-align: center;"><a href="https://www.google.com">Other</a></h3></div>
+  
+     <div id="header-content"> <embed src="https://pixel.chat/gwKEnPC281ExUzt/9b02c783-0d10-46a9-a254-fc37afd02da3" type="text/html" width="315" height="126"></embed></div>
 
 
 </body>
