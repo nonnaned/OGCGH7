@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <style>
+               body {
+                    background-color: #111111;
+                    margin: 0;
+                    overflow-x: hidden;
+               }
+               .bg {
+                    position: fixed;
+                    top: -50%;
+                    left: -50%;
+                    right: -50%;
+                    bottom: -50%;
+                    width: 200%;
+                    height: 200vh;
+                    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+                    background-repeat: repeat;
+                    animation: bg-animation .2s infinite;
+                    opacity: .9;
+                    visibility: visible;
+                    z-index: -1;
+               }
+               @keyframes bg-animation {
+                    0% { transform: translate(0,0) }
+                    10% { transform: translate(-5%,-5%) }
+                    20% { transform: translate(-10%,5%) }
+                    30% { transform: translate(5%,-10%) }
+                    40% { transform: translate(-5%,15%) }
+                    50% { transform: translate(-10%,5%) }
+                    60% { transform: translate(15%,0) }
+                    70% { transform: translate(0,10%) }
+                    80% { transform: translate(-15%,0) }
+                    90% { transform: translate(10%,5%) }
+                    100% { transform: translate(5%,0) }
+               }
+               
+               @font-face {
+                    font-family: myFirstFont;
+                    src: url(Abel-Regular.woff);
+                    }
+               div {
+                    font-family: myFirstFont;
+                    }
+               .paddingtop {
+                         padding-top :5%;
+                    }
+               .paddingten{
+                    padding-bottom: 40%;
+               }
+
+               #header-content {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+               }
+               a:link {
+                    color: #39D1F7;
+                    background-color: transparent;
+                    text-decoration: none;
+               }
+
+               a:visited {
+                    color: #9FF0E9;
+                    background-color: transparent;
+                    text-decoration: none;
+               }
+
+               a:hover {
+                    color: #0053FA;
+                    background-color: transparent;
+                    text-decoration: underline;
+               }
+
+               a:active {
+                    color: #011AF0;
+                    background-color: transparent;
+                    text-decoration: underline;
+               }
+   
+          </style>
+          <link rel="icon" href="icon.gif" type="image/gif" sizes="16x16">
+          <title>Számrend/Bash</title>
+          </head>
+          
+<body>
+     <div class="bg"></div>
+     <div style="color: #5ee8f1" ><h1 style=" text-align: center;">Oláh Péter Boldizsár</h1></div>
+
+     <div><h2 class = "paddingtop" style="color: #0fc4d1; text-align: center;">Beadandók</h2>
+     <h4 style=" text-align: center;"><a href="https://www.google.com">2021 Oct 10. Őszi beadandó</a></h4></div>
+    
+     <div id="header-content"> <embed src="https://pixel.chat/gwKEnPC281ExUzt/9b02c783-0d10-46a9-a254-fc37afd02da3" type="text/html" width="500" height="126"></embed></div>
+
+
+</body>
+</html>
