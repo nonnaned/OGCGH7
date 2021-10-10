@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
      <head>
+        <title>Arduino vs. Raspberry Pi</title>
           <style>
                body {
-                    background-color: #111111;
+                    background-color: #313131;
                     margin: 0;
                     overflow-x: hidden;
                }
-               .bg {
+               .hat {
                     position: fixed;
                     top: -50%;
                     left: -50%;
@@ -17,12 +18,12 @@
                     height: 200vh;
                     background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
                     background-repeat: repeat;
-                    animation: bg-animation .2s infinite;
+                    animation: hat-animacio .2s infinite;
                     opacity: .9;
                     visibility: visible;
                     z-index: -1;
                }
-               @keyframes bg-animation {
+               @keyframes hat-animacio {
                     0% { transform: translate(0,0) }
                     10% { transform: translate(-5%,-5%) }
                     20% { transform: translate(-10%,5%) }
@@ -44,6 +45,11 @@
 
                a:active {
                     color: #011AF0;
+                    background-color: transparent;
+                    text-decoration: underline;
+               }
+               a:visited{
+                color: #7b82c5;
                     background-color: transparent;
                     text-decoration: underline;
                }
@@ -89,7 +95,7 @@
           </head>
           
 <body>
-    <div class="bg"></div>
+    <div class="hat"></div>
 <div class="text1">
     
 <div style="text-align: center"><h1>Arduino vs. Raspberry PI</h1></div>
